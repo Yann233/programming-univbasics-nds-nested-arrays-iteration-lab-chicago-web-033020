@@ -28,16 +28,16 @@ def find_greater_pair(src) #returns the larger numbers from each pair of array i
     row_index = 0 #这个是index 或者 i
     while row_index < src.length do #src.length shows how many elements in the src array
       #这个也行
-      newArray.push(src[row_index][0] > src[row_index][1] ?    src[row_index][0] :   src[row_index][1])
+      #newArray.push(src[row_index][0] > src[row_index][1] ?    src[row_index][0] :   src[row_index][1])
       #                       如果第0位>第1位 ?                  True就插入第0位   ：   False就插入第1位
-=begin
+
 #简单粗暴的表示方法
       if src[row_index][0] > src[row_index][1] #row_index[0] will be the first element in the array etc.
         newArray<<src[row_index][0]  #martix[row_index][element_index]
       else
        newArray<<src[row_index][1]
       end
-=end
+
       row_index += 1
     end
     newArray
