@@ -28,8 +28,9 @@ def find_greater_pair(src)
     row_index = 0 #这个是index 或者 i
     while row_index < src.length do #src.length shows how many elements in the src array
       #如果第一个>或=第二个数，把第一个数从最后插入newArray
-      newArray.push(src[row_index][0] >= src[row_index][1] ?    src[row_index][0] :   src[row_index][1])
-      #                                    如果第0位>第1位 ?     True就插入第0位   ：    False就插入第1位
+              # .push从end of array插入
+        newArray.push(src[row_index][0] >= src[row_index][1] ?    src[row_index][0] :   src[row_index][1])
+                              # 如果第0位>=第1位 ?                  True就插入第0位   ：    False就插入第1位
 =begin
 #简单粗暴的表示方法
       if src[row_index][0] > src[row_index][1] #row_index[0] will be the first element in the array etc.
