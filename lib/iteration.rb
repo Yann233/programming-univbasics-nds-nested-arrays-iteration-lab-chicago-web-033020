@@ -34,8 +34,8 @@ def find_greater_pair(src) #returns the larger numbers from each pair of array i
 #简单粗暴的表示方法
       if src[row_index][0] > src[row_index][1] #row_index[0] will be the first element in the array etc.
         newArray<<src[row_index][0]  #martix[row_index][element_index]
-      else
-       newArray<<src[row_index][1]
+    #  else
+      # newArray<<src[row_index][1]
       end
 
       row_index += 1
