@@ -40,7 +40,7 @@ def find_greater_pair(src) #returns the larger numbers from each pair of array i
 
       row_index += 1
     end
-=end    
+=end
     newArray
 
 end
