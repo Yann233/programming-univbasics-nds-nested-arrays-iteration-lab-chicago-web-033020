@@ -30,7 +30,7 @@ def find_greater_pair(src)
       #如果第一个>或=第二个数，把第一个数从最后插入newArray
               # .push从end of array插入
         newArray.push(src[row_index][0] >= src[row_index][1] ?    src[row_index][0] :   src[row_index][1])
-                              # 如果第0位>=第1位 ?               T就插入Array中第1位   ：  F就插入Array中第2位
+                       # 如果Array中第1位>=第2位 ?               T就插入Array中第1位   ：  F就插入Array中第2位
 =begin
 #简单粗暴的表示方法
       if src[row_index][0] > src[row_index][1] #row_index[0] will be the first element in the array etc.
