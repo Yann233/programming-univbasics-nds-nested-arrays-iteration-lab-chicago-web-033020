@@ -23,7 +23,7 @@ def join_ingredients(src)
 # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
 # Produce a new Array that contains the larger number of each of the pairs
 # that are in the inner Arrays
-def find_greater_pair(src)
+def find_greater_pair(src) #returns the larger numbers from each pair in a new Array
   newArray = []#先设一个新array
     row_index = 0 #这个是index 或者 i
     while row_index < src.length do #src.length shows how many elements in the src array
