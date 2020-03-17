@@ -57,7 +57,7 @@ def total_even_pairs(src)
 total=0
 row_index=0 #这个是src的index 或者 i
   while row_index < src.length do #src.length shows how many elements in the src array
-      if (src[row_index][0]%2==0 &&  src[row_index][1]%2==0)
+      if (src[row_index][0]%2==0 &&  src[row_index][1]%2==0) #当余数都=0，则俩都是even #
       total+=(src[row_index][0]+src[row_index][1])
       end
     row_index += 1
